@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1E90FF;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+header input[type="text"] {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+section {
+    padding: 20px;
+}
+
+.comic-list {
+    display: flex;
+    overflow-x: auto;
+}
+
+.comic-item {
+    margin: 10px;
+    text-align: center;
+    width: 150px;
+}
+
+.comic-item img {
+    width: 100%;
+    height: auto;
+}
+
+header nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hover effect */
+header nav a:hover {
+    background-color: white;
+    color: #000000;
+    border-radius: 5px;
+}
